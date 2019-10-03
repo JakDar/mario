@@ -52,6 +52,16 @@ html_split_index = False
 html_sidebars = {"**": ["searchbox.html", "globaltoc.html", "sourcelink.html"]}
 html_short_title = "%s-%s" % (project, version)
 
+
+# These folders are copied to the documentation's HTML output
+html_static_path = ["_static"]
+
+# These paths are either relative to html_static_path
+# or fully qualified paths (eg. https://...)
+html_css_files = ["css/medium-editor.css"]
+
+html_js_files = ["js/medium-editor.js"]
+
 napoleon_use_ivar = True
 napoleon_use_rtype = False
 napoleon_use_param = True
